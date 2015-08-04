@@ -1,0 +1,502 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52527F65195DB0880090A334 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52527F64195DB0880090A334 /* Foundation.framework */; };
+		52527F67195DB0880090A334 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52527F66195DB0880090A334 /* CoreGraphics.framework */; };
+		52527F69195DB0880090A334 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52527F68195DB0880090A334 /* UIKit.framework */; };
+		52527F6F195DB0880090A334 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 52527F6D195DB0880090A334 /* InfoPlist.strings */; };
+		52527F71195DB0880090A334 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 52527F70195DB0880090A334 /* main.m */; };
+		52527F75195DB0880090A334 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 52527F74195DB0880090A334 /* AppDelegate.m */; };
+		52527F7E195DB0880090A334 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52527F7D195DB0880090A334 /* XCTest.framework */; };
+		52527F7F195DB0880090A334 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52527F64195DB0880090A334 /* Foundation.framework */; };
+		52527F80195DB0880090A334 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52527F68195DB0880090A334 /* UIKit.framework */; };
+		52527F88195DB0880090A334 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 52527F86195DB0880090A334 /* InfoPlist.strings */; };
+		52527F8A195DB0880090A334 /* RouleTaBilleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52527F89195DB0880090A334 /* RouleTaBilleTests.m */; };
+		52527F95195DB0C60090A334 /* RouleTaBilleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 52527F94195DB0C60090A334 /* RouleTaBilleView.m */; };
+		52527F98195DB0DC0090A334 /* RouleTaBilleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52527F97195DB0DC0090A334 /* RouleTaBilleViewController.m */; };
+		52527F9D195DB3AF0090A334 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52527F9C195DB3AF0090A334 /* Images.xcassets */; };
+		52527F9F195DB3B90090A334 /* Backgrounds in Resources */ = {isa = PBXBuildFile; fileRef = 52527F9E195DB3B90090A334 /* Backgrounds */; };
+		52527FBD19604AB20090A334 /* poc.wav in Resources */ = {isa = PBXBuildFile; fileRef = 52527FBC19604AB20090A334 /* poc.wav */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		52527F81195DB0880090A334 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52527F59195DB0880090A334 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52527F60195DB0880090A334;
+			remoteInfo = RouleTaBille;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		52527F61195DB0880090A334 /* RouleTaBille.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RouleTaBille.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		52527F64195DB0880090A334 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		52527F66195DB0880090A334 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		52527F68195DB0880090A334 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		52527F6C195DB0880090A334 /* RouleTaBille-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RouleTaBille-Info.plist"; sourceTree = "<group>"; };
+		52527F6E195DB0880090A334 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		52527F70195DB0880090A334 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		52527F72195DB0880090A334 /* RouleTaBille-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RouleTaBille-Prefix.pch"; sourceTree = "<group>"; };
+		52527F73195DB0880090A334 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		52527F74195DB0880090A334 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		52527F7C195DB0880090A334 /* RouleTaBilleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RouleTaBilleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		52527F7D195DB0880090A334 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		52527F85195DB0880090A334 /* RouleTaBilleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RouleTaBilleTests-Info.plist"; sourceTree = "<group>"; };
+		52527F87195DB0880090A334 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		52527F89195DB0880090A334 /* RouleTaBilleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RouleTaBilleTests.m; sourceTree = "<group>"; };
+		52527F93195DB0C60090A334 /* RouleTaBilleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RouleTaBilleView.h; path = Views/RouleTaBilleView.h; sourceTree = "<group>"; };
+		52527F94195DB0C60090A334 /* RouleTaBilleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RouleTaBilleView.m; path = Views/RouleTaBilleView.m; sourceTree = "<group>"; };
+		52527F96195DB0DC0090A334 /* RouleTaBilleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RouleTaBilleViewController.h; path = Controllers/RouleTaBilleViewController.h; sourceTree = "<group>"; };
+		52527F97195DB0DC0090A334 /* RouleTaBilleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RouleTaBilleViewController.m; path = Controllers/RouleTaBilleViewController.m; sourceTree = "<group>"; };
+		52527F9C195DB3AF0090A334 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Ressources/Images.xcassets; sourceTree = "<group>"; };
+		52527F9E195DB3B90090A334 /* Backgrounds */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Backgrounds; path = Ressources/Backgrounds; sourceTree = "<group>"; };
+		52527FBC19604AB20090A334 /* poc.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = poc.wav; path = Ressources/poc.wav; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52527F5E195DB0880090A334 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52527F67195DB0880090A334 /* CoreGraphics.framework in Frameworks */,
+				52527F69195DB0880090A334 /* UIKit.framework in Frameworks */,
+				52527F65195DB0880090A334 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52527F79195DB0880090A334 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52527F7E195DB0880090A334 /* XCTest.framework in Frameworks */,
+				52527F80195DB0880090A334 /* UIKit.framework in Frameworks */,
+				52527F7F195DB0880090A334 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52527F58195DB0880090A334 = {
+			isa = PBXGroup;
+			children = (
+				52527F6A195DB0880090A334 /* RouleTaBille */,
+				52527F83195DB0880090A334 /* RouleTaBilleTests */,
+				52527F63195DB0880090A334 /* Frameworks */,
+				52527F62195DB0880090A334 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		52527F62195DB0880090A334 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52527F61195DB0880090A334 /* RouleTaBille.app */,
+				52527F7C195DB0880090A334 /* RouleTaBilleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52527F63195DB0880090A334 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				52527F64195DB0880090A334 /* Foundation.framework */,
+				52527F66195DB0880090A334 /* CoreGraphics.framework */,
+				52527F68195DB0880090A334 /* UIKit.framework */,
+				52527F7D195DB0880090A334 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		52527F6A195DB0880090A334 /* RouleTaBille */ = {
+			isa = PBXGroup;
+			children = (
+				52527F9A195DB0E60090A334 /* Views */,
+				52527F99195DB0E00090A334 /* Controllers */,
+				52527F9B195DB39E0090A334 /* Ressources */,
+				52527F6B195DB0880090A334 /* Supporting Files */,
+			);
+			path = RouleTaBille;
+			sourceTree = "<group>";
+		};
+		52527F6B195DB0880090A334 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				52527F6C195DB0880090A334 /* RouleTaBille-Info.plist */,
+				52527F6D195DB0880090A334 /* InfoPlist.strings */,
+				52527F70195DB0880090A334 /* main.m */,
+				52527F72195DB0880090A334 /* RouleTaBille-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		52527F83195DB0880090A334 /* RouleTaBilleTests */ = {
+			isa = PBXGroup;
+			children = (
+				52527F89195DB0880090A334 /* RouleTaBilleTests.m */,
+				52527F84195DB0880090A334 /* Supporting Files */,
+			);
+			path = RouleTaBilleTests;
+			sourceTree = "<group>";
+		};
+		52527F84195DB0880090A334 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				52527F85195DB0880090A334 /* RouleTaBilleTests-Info.plist */,
+				52527F86195DB0880090A334 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		52527F99195DB0E00090A334 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				52527F73195DB0880090A334 /* AppDelegate.h */,
+				52527F74195DB0880090A334 /* AppDelegate.m */,
+				52527F96195DB0DC0090A334 /* RouleTaBilleViewController.h */,
+				52527F97195DB0DC0090A334 /* RouleTaBilleViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		52527F9A195DB0E60090A334 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				52527F93195DB0C60090A334 /* RouleTaBilleView.h */,
+				52527F94195DB0C60090A334 /* RouleTaBilleView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		52527F9B195DB39E0090A334 /* Ressources */ = {
+			isa = PBXGroup;
+			children = (
+				52527FBC19604AB20090A334 /* poc.wav */,
+				52527F9C195DB3AF0090A334 /* Images.xcassets */,
+				52527F9E195DB3B90090A334 /* Backgrounds */,
+			);
+			name = Ressources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52527F60195DB0880090A334 /* RouleTaBille */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52527F8D195DB0880090A334 /* Build configuration list for PBXNativeTarget "RouleTaBille" */;
+			buildPhases = (
+				52527F5D195DB0880090A334 /* Sources */,
+				52527F5E195DB0880090A334 /* Frameworks */,
+				52527F5F195DB0880090A334 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RouleTaBille;
+			productName = RouleTaBille;
+			productReference = 52527F61195DB0880090A334 /* RouleTaBille.app */;
+			productType = "com.apple.product-type.application";
+		};
+		52527F7B195DB0880090A334 /* RouleTaBilleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52527F90195DB0880090A334 /* Build configuration list for PBXNativeTarget "RouleTaBilleTests" */;
+			buildPhases = (
+				52527F78195DB0880090A334 /* Sources */,
+				52527F79195DB0880090A334 /* Frameworks */,
+				52527F7A195DB0880090A334 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52527F82195DB0880090A334 /* PBXTargetDependency */,
+			);
+			name = RouleTaBilleTests;
+			productName = RouleTaBilleTests;
+			productReference = 52527F7C195DB0880090A334 /* RouleTaBilleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52527F59195DB0880090A334 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Tibimac;
+				TargetAttributes = {
+					52527F7B195DB0880090A334 = {
+						TestTargetID = 52527F60195DB0880090A334;
+					};
+				};
+			};
+			buildConfigurationList = 52527F5C195DB0880090A334 /* Build configuration list for PBXProject "RouleTaBille" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 52527F58195DB0880090A334;
+			productRefGroup = 52527F62195DB0880090A334 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52527F60195DB0880090A334 /* RouleTaBille */,
+				52527F7B195DB0880090A334 /* RouleTaBilleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52527F5F195DB0880090A334 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52527FBD19604AB20090A334 /* poc.wav in Resources */,
+				52527F9F195DB3B90090A334 /* Backgrounds in Resources */,
+				52527F6F195DB0880090A334 /* InfoPlist.strings in Resources */,
+				52527F9D195DB3AF0090A334 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52527F7A195DB0880090A334 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52527F88195DB0880090A334 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52527F5D195DB0880090A334 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52527F75195DB0880090A334 /* AppDelegate.m in Sources */,
+				52527F71195DB0880090A334 /* main.m in Sources */,
+				52527F98195DB0DC0090A334 /* RouleTaBilleViewController.m in Sources */,
+				52527F95195DB0C60090A334 /* RouleTaBilleView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52527F78195DB0880090A334 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52527F8A195DB0880090A334 /* RouleTaBilleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		52527F82195DB0880090A334 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52527F60195DB0880090A334 /* RouleTaBille */;
+			targetProxy = 52527F81195DB0880090A334 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		52527F6D195DB0880090A334 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52527F6E195DB0880090A334 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		52527F86195DB0880090A334 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52527F87195DB0880090A334 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		52527F8B195DB0880090A334 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		52527F8C195DB0880090A334 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52527F8E195DB0880090A334 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RouleTaBille/RouleTaBille-Prefix.pch";
+				INFOPLIST_FILE = "RouleTaBille/RouleTaBille-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		52527F8F195DB0880090A334 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RouleTaBille/RouleTaBille-Prefix.pch";
+				INFOPLIST_FILE = "RouleTaBille/RouleTaBille-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		52527F91195DB0880090A334 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RouleTaBille.app/RouleTaBille";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RouleTaBille/RouleTaBille-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "RouleTaBilleTests/RouleTaBilleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		52527F92195DB0880090A334 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RouleTaBille.app/RouleTaBille";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RouleTaBille/RouleTaBille-Prefix.pch";
+				INFOPLIST_FILE = "RouleTaBilleTests/RouleTaBilleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52527F5C195DB0880090A334 /* Build configuration list for PBXProject "RouleTaBille" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52527F8B195DB0880090A334 /* Debug */,
+				52527F8C195DB0880090A334 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52527F8D195DB0880090A334 /* Build configuration list for PBXNativeTarget "RouleTaBille" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52527F8E195DB0880090A334 /* Debug */,
+				52527F8F195DB0880090A334 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		52527F90195DB0880090A334 /* Build configuration list for PBXNativeTarget "RouleTaBilleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52527F91195DB0880090A334 /* Debug */,
+				52527F92195DB0880090A334 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 52527F59195DB0880090A334 /* Project object */;
+}
